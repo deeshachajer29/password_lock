@@ -28,6 +28,14 @@ The system accepts password input and controls an unlock output based on the imp
 3. Simulate the design using Icarus Verilog.
 4. Inspect signal transitions using GTKWave.
 
+## Simulation Waveform
+
+The password lock controller was simulated using Verilog HDL, and its behavior was inspected using GTKWave.
+
+The waveform displays the clock, reset, password input, current state, next state, and unlock output, illustrating the state transitions during simulation.
+
+![pass_lock.png](pass_lock.png)
+
 ## Learning Outcomes
 - Practical exposure to RTL design using Verilog HDL.
 - Understanding sequential logic and state-based control.
