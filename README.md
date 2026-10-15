@@ -20,7 +20,7 @@ The system accepts password input and controls an unlock output based on the imp
 ## Project Files
 - `lock.v` — Verilog RTL source code.
 - `lock_tb.v` — Testbench for simulation and functional verification.
-- `password_lock.vcd` — Simulation waveform data, if generated.
+- `password_lock.vcd` — Simulation waveform data.
 
 ## Design and Verification Flow
 1. Develop the RTL design using Verilog HDL.
